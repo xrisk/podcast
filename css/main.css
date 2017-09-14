@@ -103,7 +103,6 @@ body {
 
 
 .header-wrap {
-    width: 600px;
     margin: auto;
 }
 
@@ -247,7 +246,7 @@ body {
     }
 
     .pod-header {
-        padding-left: 5%;
+
     }
 }
 

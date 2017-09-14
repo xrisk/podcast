@@ -98,14 +98,9 @@ textarea {
 
 body {
     font-family: -apple-system-font, BlinkMacSystemFont, "Robotica";
+    
 }
 
-.pod-header {
-    border-bottom: 1px solid gray;
-    padding-bottom: 10px;
-    box-shadow: 1px 1px 1px 0px #d4d4d4;
-    /** position: fixed; */
-}
 
 .header-wrap {
     width: 600px;
@@ -113,8 +108,10 @@ body {
 }
 
 .pod-title {
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-weight: 400;
+    font-size: 50px;
+    color: #4169E1;
 }
 
 .byline {
@@ -133,15 +130,17 @@ body {
 .main > h1 {
     font-weight: 300;
     font-size: 15pt;
-    font-family: "SF Mono";
+    font-family: 'Oswald';
     font-weight: 100;
     text-transform: uppercase;
     text-decoration: underline;
-    letter-spacing: -2px;
+    /* letter-spacing: -2px; */
 }
 
 .main > p {
     font-weight: 400;
+    font-size: 16px;
+    line-height: 1.67;
     color: #4a4a4a;
 }
 
@@ -150,9 +149,7 @@ body {
     font-size: 12pt;
     text-align: center;
     width: fit-content;
-    border: 1px dashed black;
-    border-radius: 20px;
-    padding: 5px 10px 5px 10px;
+    padding: 15px 10px 20px 10px;
     margin: auto;
 }
 
